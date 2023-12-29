@@ -1,7 +1,6 @@
 baseURL = 'https://jamiesecops.github.io/'
 languageCode = 'en-us'
-title = 'Giga Genghis Intel Thougths'
-
+title = '2-Minute Intel'
 
 copyright = "© jamieSecOps"
 pygmentsstyle = "monokai"
@@ -10,17 +9,17 @@ pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto"
 	useCDN=false
-	subtitle = "Practical Cyber Threat Intelligence"
+	subtitle = "Bite-sized Cyber Threat Intelligence"
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
 url = "https://github.com/jamieSecOps"
 
-#[[params.social]]
-#name = "GitLab"
-#icon = "gitlab"
-#url = "https://gitlab.com/athul/"
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/jamie-khan-b751147/"
 
 [[menu.main]]
 name = "Home"

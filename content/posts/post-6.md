@@ -2,6 +2,7 @@
 title: "Hugo shortcodes"
 date: 2018-03-18T12:13:36+05:30
 description: Here is a demo of all shortcodes available in Hugo.
+draft: true
 ---
 
 ## Images
@@ -29,4 +30,4 @@ description: Here is a demo of all shortcodes available in Hugo.
 
 ## Callouts
 
-{{< callout emoji="⚡️" text="I guess this works" >}}
+{{< callout text="I guess this works" >}}

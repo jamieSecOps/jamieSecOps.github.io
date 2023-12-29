@@ -67,7 +67,7 @@ ul > li::before {
 
 /* Images */
 img {
-  border: 3px solid #ececec;
+  border: none;
   max-width: 100%;
 }
 
@@ -95,6 +95,10 @@ figure h4 {
 }
 figure h4::before {
   content: '↳ ';
+}
+
+.no-border {
+  border: none;
 }
 
 /* Code blocks */
@@ -330,4 +334,8 @@ table th{
 table td{
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
+}
+
+#map {
+  height: 700px;
 }
